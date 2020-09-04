@@ -20,6 +20,6 @@ public class Candy extends Sweetness {
     public String toString() {
         return "Candy{" + super.toString() +
                 ", manufacturer='" + manufacturer +
-                '}';
+                "'}";
     }
 }

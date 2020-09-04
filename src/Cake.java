@@ -17,8 +17,8 @@ public class Cake extends Sweetness {
 
     @Override
     public String toString() {
-        return "Candy{" + super.toString() +
+        return "Cake{" + super.toString() +
                 ", form='" + form +
-                '}';
+                "'}";
     }
 }

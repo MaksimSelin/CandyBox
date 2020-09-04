@@ -17,8 +17,8 @@ public class Choсolate extends Sweetness {
 
     @Override
     public String toString() {
-        return "Candy{" + super.toString() +
+        return "Chocolate{" + super.toString() +
                 ", type='" + type +
-                '}';
+                "'}";
     }
 }
