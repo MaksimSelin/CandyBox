@@ -15,7 +15,7 @@ public class BoxImpl implements Box{
                     if (maxIndex < index) maxIndex = index;
                     System.out.println("position " + index + " filled");
                 } else System.out.println("position " + index + " already filled");
-            } else System.out.println("Index not found");
+            } else System.out.println("Index is out of range");
         }
         else System.out.println("overflow");
     }
@@ -52,7 +52,7 @@ public class BoxImpl implements Box{
                         }
                     }
                 } else System.out.println("Index is empty");
-            } else System.out.println("Index not found");
+            } else System.out.println("Index is out of range");
         } else System.out.println("Box is empty");
     }
 
