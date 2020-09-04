@@ -1,4 +1,4 @@
-public class Runer {
+public class Runner {
     public static void main(String[] args) {
         Candy candy1 = new Candy("candy1", 100, 50, "1");
         Candy candy2 = new Candy("candy2", 200, 20, "2");
